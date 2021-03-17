@@ -466,6 +466,65 @@ u {
     border-bottom: 1px solid #999;
 }
 
+/*#write h1 {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+*/
+#write h1::before {
+  color: #757575;
+  content: 'H1 ';
+  top: .87rem;
+}
+
+/*#write h2 {
+  font-size: 1.4rem;
+  margin: .7rem 0;
+}*/
+
+#write h2::before {
+  color: #757575;
+  content: 'H2 ';
+  top: .43rem;
+}
+
+/*#write h3 {
+  font-size: 1.2rem;
+  margin: .5rem 0;
+}
+*/
+#write h3::before {
+	color: #757575;
+  content: 'H3 ';
+  top: .2rem;
+}
+
+/*#write h4 {
+  font-size: 1.1rem;
+  margin: .2rem 0;
+}*/
+
+#write h4::before {
+	color: #757575;
+  content: 'H4 ';
+  top: .07rem;
+}
+
+/*#write h5, #write h6 {
+  font-size: 1rem;
+  margin: 0;
+}*/
+
+#write h5::before {
+	color: #757575;
+  content: 'H5 ';
+}
+
+#write h6::before {
+	color: #757575;
+  content: 'H6 ';
+}
+
 #write>h3.md-focus:before {
     left: -1.875rem;
     top: 0.5rem;
